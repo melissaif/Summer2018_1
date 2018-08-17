@@ -14,7 +14,6 @@
  </div>
 <!---End HTML From w3Schools--->
 
-<div class="mainFrame">
 
 <H1>Example Projects and Resources</H1>
 <UL>
@@ -24,7 +23,27 @@
   <LI>Fitbit for Chewing - Noisebridge Stupid Hack</LI>
 </UL>
 
-</div>
+<form>
+  Pick a number:
+<select id="numberPicker">
+  <option value = 1>One banana</option>
+  <option value = 2>Two apples</option>
+</select>
+</form>
+<button type="button" onclick="myFunction()">Try it</button>
+
+<p id="numberOut"></p>
+<script>
+function myFunction() {
+  var x = document.getElementById("numberPicker").value;
+
+  if (x == 1){
+
+  document.getElementById("numberOut").innerHTML = "I'd like a banana, please.";
+
+  }
+}
+</script>
 
 </BODY>
 </html>
