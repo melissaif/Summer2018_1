@@ -43,3 +43,7 @@ body {
   background-image: url("images/deerPhoto.JPG");
   background-size: cover;
 }
+
+p{
+  color: red;
+}
